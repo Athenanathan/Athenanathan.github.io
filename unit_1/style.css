@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color:navy;
+}
+
+h1{
+	color: white;
+}
+
+h2{
+	color: darkred;
+}
+
+p{
+	color: white;
+}
+
+h1,h2,p{
+	margin-right: auto;
+}
