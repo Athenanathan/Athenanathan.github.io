@@ -1,7 +1,8 @@
 body{
-    background-image:url("img/smoke.jpg");
- 
-}
+    background-image:url("../img/smoke.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
+   
+
 
