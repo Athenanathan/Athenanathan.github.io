@@ -1,17 +1,38 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+*{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{
-    background-image:url("../img/smoke.jpg");
+/*    background-image:url("../img/smoke.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
 
-h1{
-    font-family: sans-serif;  
+.main{
+    background-image: url(../img/logo+hero.png);
+    background-size:1366px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-p, .navigation{
+.headfoot{
+    font-family: sans-serif; 
+    margin-top: 500px;
+    padding: 10px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+p, nav{
     font-family: 'Noto Serif', serif; 
 }
+
+nav{
+    border: black 30px solid;
+}
+
+.one{
+    margin: 2em;
+}
+    
