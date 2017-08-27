@@ -3,22 +3,20 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{
-/*    background-image:url("../img/smoke.jpg");*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    font-family: sans-serif;
 }
 
 #hero{
-    width: 100%;
+    height: 440px;
+    background-image: url('../img/logo+hero.png');
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: cover;
+    background-position: 0 15px;
 }
 
 .headfoot{
     font-family: sans-serif; 
-    padding-bottom: 10px;
-    padding-right: 40px;
+    padding-top: 375px;
     text-align: right;
 }
 
@@ -48,26 +46,41 @@ nav a:hover{
     background: grey;
 }
 
+/*///// contact page /////*/
+
+.contact{
+    background: black;
+    
+}
+
 .column{
-    width: 50%;
+    width:100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #column1{
-    width: 300px;
+    width: 30%;
     float: left;
-    margin: 3em;
-    padding-left: 3em
+    padding-left: 8%;
 }
 
 #column2{
-    width: 50%;
+    width: 58%;
     float: right;
-    margin: 3em;
-    padding-right: 300px;
+    padding-right: 30%;
+    padding-top: 8%;
+    color: #FFF;
 }
 
 #email{
     margin-top: 20px;
+}
+
+#mail{
+    color: grey;
+    font-size: 25px;
+    padding-right: .1em;
 }
 
 #clearfix:after{
@@ -77,4 +90,131 @@ nav a:hover{
     content: "";
     clear: both;
     height: 0;
+}
+
+/*////// gd page //////*/
+
+.main-gd{
+    margin-left: 85px;
+}
+.column-gd{
+    width: 100%;
+    margin:1em;
+}
+
+#column3{
+    width: 15%;
+    float: left;
+    background: black;
+    padding: 8%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#column4{
+    width: 15%;
+    float: left;
+    background: black;
+    padding: 8%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#column5{
+    width: 15%;
+    float: left;
+    background: black;
+    padding: 8%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#column6{
+    width: 15%;
+    float: left;
+    background: black;
+    padding: 8%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.GD img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    width: 50%;
+    height: auto
+    float: left;
+    text-align: center;
+    padding: .5em;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.image-gallery {
+    height: 400px;
+    width: 49%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+}
+
+#manifesto {
+    background-image: url('../img/gd/manifesto_product%20shot.jpg');
+}
+
+#logo {
+    background-image: url('../img/gd/logo_board3.jpg');
+}
+
+#coasters {
+    background-image: url('../img/gd/Bottle%20Beer%20Mockups.jpg');
+}
+
+#bottle {
+    background-image: url('../img/gd/coasters1.jpg');
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    min-height: 200px;
+    position: relative;
+    outline:1px dotted red;
+}
+#range {
+    background-image:url('../img/art/05_Nathan_MT.%20Range_72.jpg')
+}
+
+#land {
+    background-image:url('../img/art/07_Nathan_Red%20Land.72.jpg')
+}
+
+#range {
+    height: 100%;
+    position:relative;
+    background-image:url('../img/art/05_Nathan_MT.%20Range_72.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#land {
+    height: 100%;
+    position:relative;
+    background-image:url('../img/art/07_Nathan_Red%20Land.72.jpg');
+    background-size: cover;
+    background-position: center;
 }
