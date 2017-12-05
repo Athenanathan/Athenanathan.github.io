@@ -4,19 +4,20 @@
 
 body{
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 #hero{
-    height: 440px;
+    height: 557px;
     background-image: url('../img/logo+hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 15px;
+    background-position: -5 -9px;
 }
 
 .headfoot{
     font-family: sans-serif; 
-    padding-top: 375px;
+    padding-top: 510px;
     text-align: right;
 }
 
@@ -79,7 +80,7 @@ nav a:hover{
 
 #mail{
     color: grey;
-    font-size: 25px;
+    font-size: 2em;
     padding-right: .1em;
 }
 
@@ -92,102 +93,124 @@ nav a:hover{
     height: 0;
 }
 
-/*////// gd page //////*/
+/*////// gd page nav //////*/
 
-.main-gd{
-    margin-left: 85px;
-}
-.column-gd{
-    width: 100%;
-    margin:1em;
-}
-
-#column3{
-    width: 15%;
+.GD > div {
+    width: 49%;
     float: left;
-    background: black;
-    padding: 8%;
+    padding: 1em;
+    padding-right: 0;
+    margin-top: 1em;
+}
+
+.GD > div > div {
+    background-color:black;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 1em;
+}
+
+.GD >div >div:hover h2 {
+    opacity: 1;
+}
+
+.GD >div >div:hover img {
+    opacity: .6;
+    
+}
+.GD h2 {
+    position: absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+/*    transition: .25s ease;*/
     color: white;
     font-size: 40px;
-    text-align: center;
-}
-
-#column4{
-    width: 15%;
-    float: left;
-    background: black;
-    padding: 8%;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
-#column5{
-    width: 15%;
-    float: left;
-    background: black;
-    padding: 8%;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
-#column6{
-    width: 15%;
-    float: left;
-    background: black;
-    padding: 8%;
-    color: white;
-    font-size: 40px;
-    text-align: center;
 }
 
 .GD img{
     width: 100%;
 }
+/*///art page ///*/
 
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    width: 50%;
-    height: auto
-    float: left;
-    text-align: center;
-    padding: .5em;
-}
-
-.gallery {
-    padding: 20px;
-}
-
-.image-gallery {
-    height: 400px;
+.art > div {
     width: 49%;
-    display: inline-block;
-    background-size: cover;
-    background-position: center center;
+    float: left;
+    padding: 1em;
+    padding-right: 0;
+    margin-top: 1em;
 }
 
-#manifesto {
-    background-image: url('../img/gd/manifesto_product%20shot.jpg');
+.art > div > div {
+    background-color:black;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 1em;
 }
 
-#logo {
-    background-image: url('../img/gd/logo_board3.jpg');
+.art >div >div:hover h2 {
+    opacity: 1;
 }
 
-#coasters {
-    background-image: url('../img/gd/Bottle%20Beer%20Mockups.jpg');
+.art >div >div:hover img {
+    opacity: .6;
+    
+}
+.art h2 {
+    position: absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+/*    transition: .25s ease;*/
+    color: white;
+    font-size: 40px;
+}
+.art img{
+    width: 100%;
+/*    transition: .25s ease;*/
 }
 
-#bottle {
-    background-image: url('../img/gd/coasters1.jpg');
+#clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
 }
 
+/*////resume////*/
+
+.resume {
+    width: 87%; 
+    margin-top: 3%;
+    margin-left: 20%; 
+}
+
+.resume a {
+    float: left;
+    color: white;
+    background: black;
+    padding: 5%;
+    margin: 4%;
+    position: center;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif; 
+}
+
+.resume a:hover{
+    background: grey;
+    
+}
+
+
+/*
 .container{
     width: 100%;
     height: 300px;
@@ -195,26 +218,5 @@ li{
     position: relative;
     outline:1px dotted red;
 }
-#range {
-    background-image:url('../img/art/05_Nathan_MT.%20Range_72.jpg')
-}
+*/
 
-#land {
-    background-image:url('../img/art/07_Nathan_Red%20Land.72.jpg')
-}
-
-#range {
-    height: 100%;
-    position:relative;
-    background-image:url('../img/art/05_Nathan_MT.%20Range_72.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-#land {
-    height: 100%;
-    position:relative;
-    background-image:url('../img/art/07_Nathan_Red%20Land.72.jpg');
-    background-size: cover;
-    background-position: center;
-}
